@@ -15,6 +15,7 @@
 body {
     background-color: var(--bluefondo);
     color: var(--blueletras);
+    
 }
 .header{
     background-color: var(--orange);
@@ -25,6 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
 }
 .header img{
     width: 86px;
@@ -43,19 +45,36 @@ body {
     color: var(--blueletras);
 }
 .box-home{
-    background: url(img/keyboard.jpg);
-    height: 920px;
-    width: 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
+     background-image: url(img/keyboard.jpg);
+     height: 900px;
+     width: 100%;
+     background-size: cover;
+     position: relative;
+     background-repeat: no-repeat;
 }
-.box-home::after{
+.box-home::before{
     content: "";
     width: 100%;
     height: 100%;
-    background-color: #082032;
+    background-color: var(--bluefondo);
     position: absolute;
     opacity: 0.7;
-}
+ }
+ .text-home{
+     background-color:var(--orange);
+     position: sticky;
+     width: 900px;
+     height: 400px;
+     font-size: 60px;
+     margin-top: 180px;
+     margin-left: 160px;
+     display: flex;
+     text-align: center;
+     align-items: center;
+     border-radius: 10px;
+ }
+ 
+
+
+
 
