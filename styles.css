@@ -17,62 +17,49 @@ body {
     color: var(--blueletras);
     
 }
-.header{
-    background-color: var(--orange);
-    width: 100%;
-    height: 90px;
-    padding-left: 128px;
-    padding-right: 300px; ;
+.text-box-experience{
+    margin-top: 91px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
+    flex-direction: column;
 }
-.header img{
-    width: 86px;
-    height: 70px;
+.text-box-experience img{
+    height: 300px;
+    width: 411px;
 }
-.main-home{
-    
-    width: 500px;
+.text-box-experience h1{
+    align-self: center;
+    font-size: 70px;
+    color: var(--orange);
+}
+.boxes-experience{
+    width: 1500px;
+    height: 100%;
     display: flex;
     justify-content: space-around;
-    font-size: 16px;
+    margin-top: 61px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.main-home a{
-    text-decoration: none;
-    font-size: 18px;
-    color: var(--blueletras);
+.box-experience{
+    width: 447px;
+    height: 638px;
+    background-color:var(--blueletras);
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    border-radius: 10px;
+    color: white;
+    
 }
-.box-home{
-     background-image: url(img/keyboard.jpg);
-     height: 900px;
-     width: 100%;
-     background-size: cover;
-     position: relative;
-     background-repeat: no-repeat;
+.box-experience h2{
+    align-self: center;
+    margin-top: 83px;
+    margin-bottom: 53px;
 }
-.box-home::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: var(--bluefondo);
-    position: absolute;
-    opacity: 0.7;
- }
- .text-home{
-     background-color:var(--orange);
-     position: sticky;
-     width: 900px;
-     height: 400px;
-     font-size: 60px;
-     margin-top: 180px;
-     margin-left: 160px;
-     display: flex;
-     text-align: center;
-     align-items: center;
-     border-radius: 10px;
- }
+.box-experience p{
+    margin-bottom: 20px;
+}
+
  
 
 
