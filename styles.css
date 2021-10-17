@@ -250,8 +250,101 @@ body {
  .gh {
      width: 50%;
  }
+ .contact-me{
+     height: 900px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 108px;
+ }
+ .contact-me h1{
+     margin-bottom: 45px;
+ }
+ form{
+     height: 511px;
+     width: 546px;
+    background-color: var(--blueletras);
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    color: white;
+    border-radius: 10px;
+ }
+ form label{
+     margin-right: 23px;
+     align-self: center;
+ }
+ form div{
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+ }
  
-
+ form input{
+     width: 180px;
+     height: 36px;
+     background:none;
+     color: white;
+     outline: none;
+     border-radius: 5px;
+     border: solid 1px white;
+     align-self: center;
+     font-size: 16px;
+     padding: 5px;
+     
+ }
+ form textarea{
+     color: white;
+     background:none;
+     border: solid white 1px;
+     outline: none;
+     width: 368px;
+     height: 162px;
+     border-radius: 10px;
+     padding: 5px;
+     font-size: 16px;
+ }
+ .textarea{
+     width: 400px;
+ }
+ form button{
+     height: 30px;
+     width: 200px;
+     border-radius: 10px;
+     border: none;
+     background-color: var(--orange);
+ }
+ form button:hover{
+     cursor: pointer;
+ }
+.box-logos{
+    width: 650px;
+    height: 27.22px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.box-logos div{
+    display: flex;
+    flex-direction: row;
+    
+}
+.box-logos div p{
+    margin-left: 10px;
+}
+.box-logos a{
+    color: white;
+    text-decoration: none;
+}
+.box-logos img{
+    width: 22px;
+    height: 22px;
+}
 
 
 
