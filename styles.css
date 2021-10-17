@@ -17,6 +17,7 @@ body {
     color: var(--blueletras);
     
 }
+/* NAV */
 .header{
     background-color: var(--orange);
     width: 100%;
@@ -44,6 +45,7 @@ body {
     font-size: 18px;
     color: var(--blueletras);
 }
+/* Hero */
 .box-home{
      background-image: url(img/keyboard.jpg);
      height: 900px;
@@ -73,7 +75,59 @@ body {
      align-items: center;
      border-radius: 10px;
  }
+ /* Experience */
+ .experience {
+     padding-top: 61px;
+     display: flex;
+     flex-direction: column;
+
+    
+ }
+
+ .experience img {
+     height: 300px;
+     width: 411px;
+ }
+
+ .experience h1 {
+     align-self: center;
+     font-size: 70px;
+     color: var(--orange);
+ }
+
+ .boxes-experience {
+     width: 1500px;
+     height: 700px;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 61px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .box-experience {
+     width: 447px;
+     height: 638px;
+     background-color: var(--blueletras);
+     display: flex;
+     flex-direction: column;
+     padding-left: 16px;
+     border-radius: 10px;
+     color: white;
+
+ }
+
+ .box-experience h2 {
+     align-self: center;
+     margin-top: 83px;
+     margin-bottom: 53px;
+ }
+
+ .box-experience p {
+     margin-bottom: 20px;
+ }
  
+
 
 
 
