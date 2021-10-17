@@ -80,6 +80,7 @@ body {
      padding-top: 61px;
      display: flex;
      flex-direction: column;
+     
 
     
  }
@@ -125,6 +126,63 @@ body {
 
  .box-experience p {
      margin-bottom: 20px;
+ }
+ /* About me */
+ .about-me{
+     
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     height: 900px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+ }
+ .box-photo{
+     margin-left: 200px;
+     height: 462px;
+     width: 330px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .box-photo div{
+     background-image: url(img/Foto-carnet.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+     height: 305px;
+     width: 310px;
+     border-radius: 200px;
+     border:solid #F0A500 2px;
+     margin-top: 89px;
+     
+     
+ }
+ .description-about-me{
+     height: 550px;
+     width: 763px;
+     background-color: var(--blueletras);
+     border-radius: 10px;
+     padding-top: 133px;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 133px 30px;
+     align-self: center;
+
+ }
+ .description-about-me h2{
+     font-size: 45px;
+ }
+ .description-about-me p{
+     text-align: justify;
+     height: 326px;
+     width: 558px;
+     margin-top: 89px;
  }
  
 
